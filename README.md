@@ -67,13 +67,13 @@ seeking behavior, such as antenatal care attendance and skilled birth attendance
 - Antenatal-care-coverage Table
 - Births-attended-by-skilled-health-personnel Table
 
-![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/271e40f1-f0c7-4c33-9ac6-ac61dbd7dd56)
+
 #
 # 3NF / Fact Table
 - Normalization with location Table
 - Normalizing Period Ranges
   
-![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/31b3cc56-1b3b-4f87-aae3-2499d21b8dad)
+
 #
 
 
