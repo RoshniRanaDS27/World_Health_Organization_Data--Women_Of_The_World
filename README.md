@@ -13,19 +13,19 @@
 # BackGround 
 Women's health encompasses a diverse array of physical, mental, and social well-being concerns unique to females. This includes maternal and reproductive health, which focuses on aspects such as pregnancy, childbirth, and reproductive choices. Maternal health emphasizes prenatal care, safe delivery practices, and postpartum support, aiming to reduce maternal and infant mortality rates and promote healthy pregnancies. Reproductive health further encompasses family planning and access to reproductive healthcare services, crucial for empowering women to make informed decisions about their reproductive futures. Addressing these multifaceted issues requires comprehensive healthcare strategies that recognize the intersection of biological factors, societal norms, and healthcare access, thereby promoting the overall well-being of women throughout their lives.
 
-## Main question: How does access to and satisfaction with modern family planning methods 
+# Main question: How does access to and satisfaction with modern family planning methods 
 How Among married or in-union women of reproductive age, impact reproductive 
 health outcomes and maternal well-being rates are varied due to cultural barriers, lack of tech facilities. These disparities show the varying levels of support and challenges different regions face in collected Data sets.  
 #
 
-## Specific focus areas: 
+# Specific focus areas: 
 ![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/9f79dc2e-714a-4f93-a46c-fc1044f1dccb)
  
  - Mental health (psychological well-being such as depression, strees, anxiety)
  - Skilled birth attendance (count with doctors, nurses and midwives support) 
  - Postpartum support (health care for mothers within the first months)
 
-### Sub-questions to guide the analysis: 
+# Sub-questions to guide the analysis: 
 1. Access to Family Planning: How does access to modern family planning methods vary across different 
 regions and socioeconomic groups? 
 
