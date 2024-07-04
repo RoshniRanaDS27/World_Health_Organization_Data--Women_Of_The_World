@@ -14,10 +14,13 @@
 Women's health encompasses a diverse array of physical, mental, and social well-being concerns unique to females. This includes maternal and reproductive health, which focuses on aspects such as pregnancy, childbirth, and reproductive choices. Maternal health emphasizes prenatal care, safe delivery practices, and postpartum support, aiming to reduce maternal and infant mortality rates and promote healthy pregnancies. Reproductive health further encompasses family planning and access to reproductive healthcare services, crucial for empowering women to make informed decisions about their reproductive futures. Addressing these multifaceted issues requires comprehensive healthcare strategies that recognize the intersection of biological factors, societal norms, and healthcare access, thereby promoting the overall well-being of women throughout their lives.
 
 ## Main question: How does access to and satisfaction with modern family planning methods 
-among married or in-union women of reproductive age, impact reproductive 
-health outcomes and maternal well-being? 
+How Among married or in-union women of reproductive age, impact reproductive 
+health outcomes and maternal well-being rates are varied due to cultural barriers, lack of tech facilities. These disparities show the varying levels of support and challenges different regions face in collected Data sets.  
+#
 
-## Specific focus areas:
+## Specific focus areas: 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/9f79dc2e-714a-4f93-a46c-fc1044f1dccb)
+ 
  - Mental health (psychological well-being such as depression, strees, anxiety)
  - Skilled birth attendance (count with doctors, nurses and midwives support) 
  - Postpartum support (health care for mothers within the first months)
@@ -31,8 +34,11 @@ adolescent birth rates?
 
 3. Maternal Well-being: Are there correlations between family planning access and maternal healthcare-
 seeking behavior, such as antenatal care attendance and skilled birth attendance?
+# Data Engineering 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/6e90d8a1-d78d-4ace-927c-aa971d447f24)
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/4d5c72aa-0630-4cf7-9d1a-ea088bb03750)
 
-# Data Collection
+# Step 01 - Data Collection
 - Sources: WHO datasets WHO Indicators.
 - Size and Shape: Large datasets spanning various indicators of maternal and reproductive health.
 * This Project journey involves data collection from The World Health Organization Relational Data Hub.   
@@ -42,15 +48,117 @@ seeking behavior, such as antenatal care attendance and skilled birth attendance
 ### Data Collection Challenges:
 - Data normalization across different countries.
 - Varying data collection periods requiring assumptions for standardization.
+# Step 02: Data cleaning ![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/79ef9430-0100-4aac-ae03-91e58391ffcb)
 
-# Overall Approach
-* Problem Framing: Identifying the core questions and defining key indicators.
-* Data Exploration: Understanding the datasets and identifying relevant variables.
-* Data Cleaning: Handling missing values and ensuring consistency.
-* Data transformation: Agreggation method as per requirements
-* Data Modeling: Using Python and libraries such as pandas, seaborn, Geopandas, matplotlib,webdriver and other Relevant and required libraries for analysis and visualization.
-* Data Visualization: Creating informative visuals to convey findings effectively.
+* In this stage data cleaning was on focus. 
+* Here, I prioritized data cleaning and quality by addressing issues like missing values, nulls, duplicates, outliers, changing data's physical type
+* Ensuring standardization with Python. Hence, This meticulous preparation ensures that the data aligns seamlessly with analysis goals.
+  
+# Step 03: Data Transformation ![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/cee5f36f-6618-4774-a7dd-993456b3f4a3)
 
+* Step three involves data transformation, where I have shaped the data to fit the needs of analysis.   
+* This includes normalization to ensure consistency and clarity in data representation, setting the stage for effective modeling.
+  
+## 1NF 
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/dfcc1e3e-77a7-4c13-8598-c7912394a235)
+## 2NF 
+- Family-planning Table
+- Adolescent-birth-rate Table
+- Antenatal-care-coverage Table
+- Births-attended-by-skilled-health-personnel Table
+
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/271e40f1-f0c7-4c33-9ac6-ac61dbd7dd56)
+#
+# 3NF / Fact Table
+- Normalization with location Table
+- Normalizing Period Ranges
+  
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/31b3cc56-1b3b-4f87-aae3-2499d21b8dad)
+#
+
+
+# Step 04: Data modeling  
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/e1a8c490-5f13-45fd-a6bd-7ebb529ac94a)
+
+crafting entity-relationship diagrams (ERDs) and establishing connections between datasets by Postgre-SQL and assigning primary and foreign keys within each tables. 
+
+ 
+# Step 05: Exploratory data analysis & Visualization ![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/c3f9eba7-c9eb-444a-a09b-339a4fc27456)
+
+Delved into exploratory data analysis using Python libraries, and explored patterns with cleaned data sets.   
+This phase unveils insights and prepares the data for meaningful visualizations.
+
+### Sub-questions to guide the analysis: 
+# 1. Access to Family Planning: How does access to modern family planning methods vary across different regions and socioeconomic groups?
+## Geographical Analysis - Family Planning Data set 
+# Continent Level Analysis
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/65e9fb6f-64a4-47a9-8dbd-72de6846cee0)
+
+#
+## Country Level Analysis
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/208bac75-c4a6-4e41-945c-628a02c19141)
+# 
+## Interactive Geographical Heat Map with tooltips Screenshot (HTML file is Saved)
+# Geographical Analysis - Family Planning Data set (Visualization)
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/8ca51fc2-e792-480d-8a93-09a57b0af8ec)
+
+## Top Three Countries within each Continent - Family Planning Data set
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/e199be97-52ae-49d8-b2c3-f12ac4bdf5f1)
+# Top Three Countries within each Continent - Visualization
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/66ee770c-1307-47ca-a4cf-d3172c1fdb37)
+# Time-Period Analysis
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/ae34b079-c308-4eee-970d-a7174113f0a3)
+#
+#
+
+# 2. Reproductive Health Outcomes: What is the correlation between access to modern family planning methods and adolescent birth rates? 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/ad0ccca0-d035-4c94-9d84-b94e0888e070)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/e12d18e4-61ff-4719-80be-c9414e2dfd5e)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/2fb61ddb-eb5b-4861-b93f-f583e2e15619)
+
+# 3. Maternal Well-being: Are there correlations between family planning access and maternal healthcare-seeking behavior, such as antenatal care attendance and skilled birth attendance? 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/4bc84aa1-1ed3-405f-889f-9aaa924e65ff)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/70a513d6-9ca8-4493-a214-edc1e66484af)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/bf71c7a6-7f1f-4824-ba15-dc9543bcf41f)
+
+# Conclusion 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/2b9d1ec3-cdf7-45ee-90cd-92a5d4b9d819)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/2bfda1b5-70b9-44d8-91fb-13266ef00676)
+
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/a8a44c19-04bf-4fce-8b8e-0caebf2099c4)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/3cad410e-7723-4467-8f19-396026f13657)
+#
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/e69924f8-7141-4ff3-913f-709fcddc26cf)
+#
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+#
+> Ultimately, Data journey concludes with interpreting the results, weaving them into meaningful conclusions 
+> Through this approach, I ensure that my analysis not only addresses initial problems but also adds unexpected value to business requirements through my technical expertise.
+
+# Dependency 
+- CSV
+- OS
+- matlotlib
+- Pandas
+- pyplot
+- numpy
+- seaborn
+- geopandas
+- folium
+- time
+- Selenium, webdriver
+- Ipython.display, image
+- plotly.express 
+- scipy.stats, pearsonr, spearmanr
+- statsmodels.api
+#
 # Time Allocation:
 * Problem Framing: 20%
 * Data Exploration: 10%
@@ -88,6 +196,8 @@ Visualization: Matplotlib, Seaborn, Geopanda, webdriver for plotting graphs and 
 * Assumed the same collecting data method accross countries.
 
 # Limitations:
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/e3eed74b-37f0-4be6-8c1b-e01be53e6c2d)
+#
 * There are more indicators that could have been analyzed to contribute to the overall hypothesis. We focused on 4 key indicators due to time constrainsts.
 * Period data was not standardized accross datasets. Some assumptions needed to be made to standardize it and make them fully comparable.
 
