@@ -1,17 +1,28 @@
-# Project_on_WHO Data_For Women's Maternal and Reproductive health
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/c3624748-6ab9-425c-95c2-72cebc924e6e)
+![image](https://github.com/RoshniRanaDS/Data_Engineering_Cleaning_Normalization_With_ERD/assets/161755928/f7392ce8-e0a1-4bcc-9e41-bfd63148c791)
+# Project - Women’s maternal and reproductive health 
 
+![image](https://github.com/RoshniRanaDS/World_Health_Organization-Women-s_Maternal_and_Reproductive_health/assets/161755928/5ef7755e-4a38-4f3c-b12e-1fbb53e200ec)
+#
+# Data Collection topics: 
+### Married-or-in-union-women-of-reproductive-age
+1. who-have-their-need-for-family-planning-satisfied-with-modern-methods
+2. Adolescent-birth-rate-(per-1000-women-aged-15-19-years)
+3. Antenatal-care-coverage-at-least-four-visits
+4. Births-attended-by-skilled-health-personnel
+# BackGround 
 Women's health encompasses a diverse array of physical, mental, and social well-being concerns unique to females. This includes maternal and reproductive health, which focuses on aspects such as pregnancy, childbirth, and reproductive choices. Maternal health emphasizes prenatal care, safe delivery practices, and postpartum support, aiming to reduce maternal and infant mortality rates and promote healthy pregnancies. Reproductive health further encompasses family planning and access to reproductive healthcare services, crucial for empowering women to make informed decisions about their reproductive futures. Addressing these multifaceted issues requires comprehensive healthcare strategies that recognize the intersection of biological factors, societal norms, and healthcare access, thereby promoting the overall well-being of women throughout their lives.
 
-Main question: How does access to and satisfaction with modern family planning methods 
+## Main question: How does access to and satisfaction with modern family planning methods 
 among married or in-union women of reproductive age, impact reproductive 
 health outcomes and maternal well-being? 
 
-Specific focus areas:
+## Specific focus areas:
  - Mental health (psychological well-being such as depression, strees, anxiety)
  - Skilled birth attendance (count with doctors, nurses and midwives support) 
  - Postpartum support (health care for mothers within the first months)
 
-Sub-questions to guide the analysis: 
+### Sub-questions to guide the analysis: 
 1. Access to Family Planning: How does access to modern family planning methods vary across different 
 regions and socioeconomic groups? 
 
@@ -21,10 +32,13 @@ adolescent birth rates?
 3. Maternal Well-being: Are there correlations between family planning access and maternal healthcare-
 seeking behavior, such as antenatal care attendance and skilled birth attendance?
 
-Data Collection
+# Data Collection
 - Sources: WHO datasets WHO Indicators.
-- Types: CSV files.
 - Size and Shape: Large datasets spanning various indicators of maternal and reproductive health.
+* This Project journey involves data collection from The World Health Organization Relational Data Hub.   
+* Had collected data set Related to Women’s maternal and reproductive health 
+* Here Ensuring the reliability and relevance of  data was paramount for me as it formed the foundation for the depth and accuracy of our analysis.
+
 Data Collection Challenges:
 - Data normalization across different countries.
 - Varying data collection periods requiring assumptions for standardization.
@@ -33,6 +47,7 @@ Overall Approach
 * Problem Framing: Identifying the core questions and defining key indicators.
 * Data Exploration: Understanding the datasets and identifying relevant variables.
 * Data Cleaning: Handling missing values and ensuring consistency.
+* Data transformation: Agreggation method as per requirements
 * Data Modeling: Using Python and libraries such as pandas, seaborn, Geopandas, matplotlib,webdriver and other Relevant and required libraries for analysis and visualization.
 * Data Visualization: Creating informative visuals to convey findings effectively.
 
