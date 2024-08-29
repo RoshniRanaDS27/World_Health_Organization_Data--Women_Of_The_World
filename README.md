@@ -144,7 +144,7 @@ This phase unveils insights and prepares the data for meaningful visualizations.
 > Ultimately, Data journey concludes with interpreting the results, weaving them into meaningful conclusions 
 > Through this approach, I ensure that my analysis not only addresses initial problems but also adds unexpected value to business requirements through my technical expertise.
  #
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXE2MXcxOTJ4YWdyNGRqczBwMWRocmp4NDZsbm9pbmduZ3RsenRlciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/W5XczpuPhqcrTxhdbo/giphy.webp" alt="Project GIF">
+<img src="https://media2.giphy.com/media/vMrUXf6Z8ltFG43H4R/giphy.webp?cid=ecf05e47zms89p82uk3aqi4z9h9haxheiu44s9rz2n4k2vge&ep=v1_stickers_search&rid=giphy.webp&ct=s" alt="Project GIF">
 #
 
 # Dependency 
@@ -163,6 +163,8 @@ This phase unveils insights and prepares the data for meaningful visualizations.
 - plotly.express 
 - scipy.stats, pearsonr, spearmanr
 - statsmodels.api
+#
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXE2MXcxOTJ4YWdyNGRqczBwMWRocmp4NDZsbm9pbmduZ3RsenRlciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/W5XczpuPhqcrTxhdbo/giphy.webp" alt="Project GIF">
 #
 # Time Allocation:
 * Problem Framing: 20%
