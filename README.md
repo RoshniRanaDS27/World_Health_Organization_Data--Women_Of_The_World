@@ -13,9 +13,7 @@ Data is collected on large set from different four topic source which are mentio
 4. Births-attended-by-skilled-health-personnel
 # BackGround 
 Women's health encompasses a diverse array of physical, mental, and social well-being concerns unique to females. This includes maternal and reproductive health, which focuses on aspects such as pregnancy, childbirth, and reproductive choices. Maternal health emphasizes prenatal care, safe delivery practices, and postpartum support, aiming to reduce maternal and infant mortality rates and promote healthy pregnancies. Reproductive health further encompasses family planning and access to reproductive healthcare services, crucial for empowering women to make informed decisions about their reproductive futures. Addressing these multifaceted issues requires comprehensive healthcare strategies that recognize the intersection of biological factors, societal norms, and healthcare access, thereby promoting the overall well-being of women throughout their lives. 
- #
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXE2MXcxOTJ4YWdyNGRqczBwMWRocmp4NDZsbm9pbmduZ3RsenRlciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/W5XczpuPhqcrTxhdbo/giphy.webp" alt="Project GIF">
-#
+  
 
 # Main question: How does access to and satisfaction with modern family planning methods 
 How Among married or in-union women of reproductive age, impact reproductive 
@@ -145,6 +143,9 @@ This phase unveils insights and prepares the data for meaningful visualizations.
 #
 > Ultimately, Data journey concludes with interpreting the results, weaving them into meaningful conclusions 
 > Through this approach, I ensure that my analysis not only addresses initial problems but also adds unexpected value to business requirements through my technical expertise.
+ #
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXE2MXcxOTJ4YWdyNGRqczBwMWRocmp4NDZsbm9pbmduZ3RsenRlciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/W5XczpuPhqcrTxhdbo/giphy.webp" alt="Project GIF">
+#
 
 # Dependency 
 - CSV
@@ -231,4 +232,7 @@ Run Notebook: Open main.ipynb in Jupyter Notebook and run the cells sequentially
 * https://www.who.int/data/gho/data/indicators/indicator-details/GHO/married-or-in-union-women-of-reproductive-age-who-have-their-need-for-family-planning-satisfied-with-modern-methods-(-) 
 * https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adolescent-birth-rate-(per-1000-women-aged-15-19-years)
 * https://www.who.int/data/gho/data/indicators/indicator-details/GHO/antenatal-care-coverage-at-least-four-visits
-* https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-) 
+* https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-)
+#
+<img src="https://media3.giphy.com/media/T8yn6Fv6ZiYXZEvZFy/giphy.webp?cid=ecf05e47zms89p82uk3aqi4z9h9haxheiu44s9rz2n4k2vge&ep=v1_stickers_search&rid=giphy.webp&ct=s" alt="Project GIF">
+#
